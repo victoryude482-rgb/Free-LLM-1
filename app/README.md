@@ -27,5 +27,11 @@ Import the repository into Vercel, set the **Root Directory** to `app`, add `GRO
 - Rename/delete-ready chat data model
 - Markdown and GFM rendering
 - Editable system prompt
+- Persistent personal response preferences (saved locally in the browser)
+- Stop generation, copy responses, and an improved mobile conversation drawer
 - Provider/model environment configuration
 - No real secrets committed
+
+## About personalization and training
+
+The **Customize Cognexa** panel lets each person save response preferences, such as tone or formatting. Those instructions are sent as the system prompt with their chats and stay in their browser. This improves how the app behaves for that person, but it does **not** train or fine-tune the underlying hosted model. Training requires a separate dataset, model provider, and fine-tuning workflow.
